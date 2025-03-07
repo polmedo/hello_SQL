@@ -13,3 +13,7 @@ SELECT * FROM users WHERE name IN ('Pablo', 'zé');
 SELECT * FROM users WHERE age BETWEEN 20 AND 30;
 
 SELECT name AS nombre, surname AS apellido FROM users WHERE age BETWEEN 20 AND 30;
+
+SELECT CONCAT(name, ' ', surname) AS full_name FROM users;
+
+SELECT COUNT(age) AS "counting", age FROM users GROUP BY age ORDER BY age ASC;
