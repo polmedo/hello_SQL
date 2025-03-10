@@ -8,3 +8,4 @@ UPDATE users SET age = 99 WHERE user_id = 6;
 UPDATE users SET age = 35, date = '2010-01-01' WHERE user_id = 6;
 
 DELETE FROM users WHERE user_id = 6;
+
